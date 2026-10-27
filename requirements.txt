@@ -1,0 +1,9 @@
+# 学習・評価・動画/レポート生成 (ホスト側 Python 3.12)。ROS 2 / Gazebo は docker/Dockerfile を参照
+torch
+stable-baselines3==2.9.0
+gymnasium
+numpy
+matplotlib
+opencv-python-headless
+pillow
+imageio-ffmpeg

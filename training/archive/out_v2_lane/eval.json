@@ -1,0 +1,22 @@
+{
+ "warehouse": {
+  "success": 242,
+  "collision": 56,
+  "timeout": 2,
+  "col_mover": 56,
+  "mean_steps": 152.49586776859505,
+  "success_rate": 0.8066666666666666,
+  "collision_rate": 0.18666666666666668,
+  "timeout_rate": 0.006666666666666667
+ },
+ "random": {
+  "success": 277,
+  "collision": 19,
+  "timeout": 4,
+  "col_mover": 16,
+  "mean_steps": 108.52707581227436,
+  "success_rate": 0.9233333333333333,
+  "collision_rate": 0.06333333333333334,
+  "timeout_rate": 0.013333333333333334
+ }
+}

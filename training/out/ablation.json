@@ -1,0 +1,65 @@
+{
+ "pure_pursuit_lidaronly": {
+  "trials": 100,
+  "success_rate": 0.23,
+  "collision_worker": 0.77,
+  "collision_static": 0.0,
+  "timeout": 0.0,
+  "mean_time_success": 79.10000000000008,
+  "mean_interventions": 0.0
+ },
+ "astar_ppo_lidaronly": {
+  "trials": 100,
+  "success_rate": 0.31,
+  "collision_worker": 0.69,
+  "collision_static": 0.0,
+  "timeout": 0.0,
+  "mean_time_success": 80.9096774193549,
+  "mean_interventions": 0.0
+ },
+ "astar_ppo_filter_lidaronly": {
+  "trials": 100,
+  "success_rate": 0.66,
+  "collision_worker": 0.34,
+  "collision_static": 0.0,
+  "timeout": 0.0,
+  "mean_time_success": 83.03030303030313,
+  "mean_interventions": 31.893939393939394
+ },
+ "pure_pursuit": {
+  "trials": 100,
+  "success_rate": 0.23,
+  "collision_worker": 0.77,
+  "collision_static": 0.0,
+  "timeout": 0.0,
+  "mean_time_success": 79.10000000000008,
+  "mean_interventions": 0.0
+ },
+ "ppo_only": {
+  "trials": 100,
+  "success_rate": 0.0,
+  "collision_worker": 0.14,
+  "collision_static": 0.86,
+  "timeout": 0.0,
+  "mean_time_success": null,
+  "mean_interventions": null
+ },
+ "astar_ppo": {
+  "trials": 100,
+  "success_rate": 0.66,
+  "collision_worker": 0.34,
+  "collision_static": 0.0,
+  "timeout": 0.0,
+  "mean_time_success": 79.56363636363642,
+  "mean_interventions": 0.0
+ },
+ "astar_ppo_filter": {
+  "trials": 100,
+  "success_rate": 0.98,
+  "collision_worker": 0.02,
+  "collision_static": 0.0,
+  "timeout": 0.0,
+  "mean_time_success": 81.07346938775517,
+  "mean_interventions": 29.142857142857142
+ }
+}

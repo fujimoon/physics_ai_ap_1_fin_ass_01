@@ -1,0 +1,31 @@
+{
+ "n": 1,
+ "success": 1,
+ "collisions": 0,
+ "mean_time": 79.9,
+ "mean_odom_err_cm": 36.81,
+ "mean_shield": 0.0,
+ "mean_filter": 25.0,
+ "mean_filter_ratio": 0.025,
+ "mean_loc_err_cm": 1.33,
+ "min_clear_worker_m": 0.137,
+ "min_clear_static_m": 0.045,
+ "runs": [
+  {
+   "run": "final",
+   "done": true,
+   "legs": 4,
+   "time": 79.9,
+   "dist": 27.461,
+   "min_clear_static_m": 0.045,
+   "min_clear_worker_m": 0.137,
+   "collision": false,
+   "odom_err_cm": 36.81,
+   "loc_err_mean_cm": 1.33,
+   "loc_err_max_cm": 3.64,
+   "shield": 0,
+   "filter": 25,
+   "steps": 1000
+  }
+ ]
+}
