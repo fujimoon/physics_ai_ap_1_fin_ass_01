@@ -1,0 +1,29 @@
+# --- Python ---
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+
+# --- ROS 2 / colcon のビルド成果物 (run_sim.sh がコンテナ内で毎回ビルドする) ---
+ros2_ws/build/
+ros2_ws/install/
+ros2_ws/log/
+
+# --- 提出物 (動画・PDF は別途提出するのでリポジトリには含めない) ---
+deliverables/
+
+# --- Gazebo の録画データ (tools/run_sim.sh, tools/eval_gazebo.sh で再生成できる) ---
+# レポートに載せた数値の根拠として、集計結果の JSON だけ残す
+recordings/*
+!recordings/eval_summary.json
+!recordings/final_summary.json
+
+# --- ログ・生成物 ---
+docker/build.log
+report/report.html
+training/out/eval_stdout.txt
+
+# --- OS / エディタ ---
+.DS_Store
+.vscode/
+.idea/
